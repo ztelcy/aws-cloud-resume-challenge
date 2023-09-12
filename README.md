@@ -4,7 +4,7 @@ This is my attempt at cloud resume challenge in AWS. What is Cloud Resume Challe
 
 ## Architecture
 
-![Cloud Resume Challenge Diagram](Cloud Resume Challenge (1) (1).jpg)
+![Cloud Resume Challenge Diagram](https://github.com/ztelcy/aws-cloud-resume-challenge/blob/main/Cloud%20Diagram.jpg?raw=true)
 
 ## Services Used:
 
