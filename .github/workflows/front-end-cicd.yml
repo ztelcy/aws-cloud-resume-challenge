@@ -15,7 +15,7 @@ jobs:
         args: --acl public-read --follow-symlinks --delete
       env:
         AWS_S3_BUCKET: ${{ secrets.zak1_cloud_resume_challenge }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AKIA3WIE3MHNAHHHUGEA }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.KK8A2Mu_6qTYrFQPLIMHqfcQwMm0LRBMVv7evfG8 }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AKIA3WIE3MHNJLYVVDQN }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.0TTq1CqtTQD07obkFliNEn/X7TDHpz4fPyw8QhwJ }}
         AWS_REGION: us-east-1
         SOURCE_DIR: CloudResumeChallengeSite
