@@ -16,6 +16,6 @@ jobs:
     env:
           AWS_S3_BUCKET: ${{ secrets.zak1_cloud_resume_challenge }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AKIA3WIE3MHNCB7KUK4P }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.YOUR_SECRET_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.32S5CdfgcX8rbYLBoKVgzgQfNDJ6u+aQBghrQ8WX }}
           AWS_REGION: us-east-1
           SOURCE_DIR: CloudResumeChallengeSite
