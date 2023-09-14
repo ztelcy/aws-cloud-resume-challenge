@@ -1,4 +1,4 @@
-name : Upload website to S3
+name: Upload website to S3
 
 on:
   push:
@@ -11,11 +11,11 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
-    with:
-      args: --acl public-read --follow-symlinks --delete
-    env:
-          AWS_S3_BUCKET: ${{ secrets.zak1_cloud_resume_challenge }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AKIA3WIE3MHNCB7KUK4P }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.32S5CdfgcX8rbYLBoKVgzgQfNDJ6u+aQBghrQ8WX }}
-          AWS_REGION: us-east-1
-          SOURCE_DIR: CloudResumeChallengeSite
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.zak1_cloud_resume_challenge }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AKIA3WIE3MHNAHHHUGEA }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: us-east-1
+        SOURCE_DIR: CloudResumeChallengeSite
